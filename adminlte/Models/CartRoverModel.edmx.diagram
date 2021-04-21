@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa03457c7c6b4b638206026765ef1bda" Name="Diagram1">
+        <EntityTypeShape EntityType="CartRoverModel.Brand" Width="1.5" PointX="6.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.ClientLocation" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Client" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Employee" Width="1.5" PointX="3.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Inventory" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.OrderCR" Width="1.5" PointX="8.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.OrderDetail" Width="1.5" PointX="11.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.OrderProcessLog" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Order" Width="1.5" PointX="6" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Product" Width="1.5" PointX="9" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefCategory" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefClientCategory" Width="1.5" PointX="7.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefOrderType" Width="1.5" PointX="3.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefProductFamily" Width="1.5" PointX="8.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefSeason" Width="1.5" PointX="9.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.RefWarehouse" Width="1.5" PointX="10.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Sales_Report" Width="1.5" PointX="11.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.sysdiagram" Width="1.5" PointX="11.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.Vendor" Width="1.5" PointX="4.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CartRoverModel.OrderProcessForce" Width="1.5" PointX="12.75" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="CartRoverModel.T_Brand_T_VendorT_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_Products_T_BrandT_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_ClientLocation_T_ClientsT_ClientLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_Orders_T_ClientsT_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_Orders_T_EmployeesT_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_OrderCR_T_OrdersT_OrderCR" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_OrderDetails__7AF3CB47_96B7_4178_B4BB_FBE0C413F5B1_" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_OrderDetails_T_ProductsT_OrderDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="CartRoverModel.T_Orders_Ref_OrderTypeT_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

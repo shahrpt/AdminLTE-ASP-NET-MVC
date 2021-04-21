@@ -34,10 +34,12 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
-                <ul class="treeview-menu">
-                    <li class="@Html.IsSelected(action: "Dashboardv1")"><a href="@Url.Action("Dashboardv1", "Dashboard")"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li class="@Html.IsSelected(action: "Dashboardv2")"><a href="@Url.Action("Dashboardv2", "Dashboard")"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                </ul>
+				<ul class="treeview-menu">
+					<li class="@Html.IsSelected(action: "Products")"><a href="@Url.Action("Products", "Dashboard")"><i class="fa fa-circle-o"></i> Products</a></li>
+
+					<li class="@Html.IsSelected(action: "Dashboardv1")"><a href="@Url.Action("Dashboardv1", "Dashboard")"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+					<li class="@Html.IsSelected(action: "Dashboardv2")"><a href="@Url.Action("Dashboardv2", "Dashboard")"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+				</ul>
             </li>
             <li class="@Html.IsSelected(controller: "Layout") treeview">
                 <a href="@Url.Action("Fixed", "Layout")">
